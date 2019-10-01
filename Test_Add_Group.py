@@ -14,9 +14,9 @@ class TestAddGroup(unittest.TestCase):
     def test_add_group(self):
         wd = self.wd
         self.open_home_page(wd)
-        self.login(wd, username="admin", password="secret")
+        self.login(wd, username = "admin", password = "secret")
         self.open_groups_page(wd)
-        self.create_group(wd, Group(name="fgfg", header="dfgdg", footer="fgfdg"))
+        self.create_group(wd, Group(name = "fgfg", header = "dfgdg", footer = "fgfdg"))
         self.return_to_groups_page(wd)
         self.logout(wd)
 
@@ -29,7 +29,7 @@ class TestAddGroup(unittest.TestCase):
         self.return_to_groups_page(wd)
         self.logout(wd)
 
-    def logout(self, wd)
+    def logout(self, wd):
         wd.find_element_by_link_text("Logout").click()
 
     def return_to_groups_page(self, wd):
