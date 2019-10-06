@@ -12,15 +12,20 @@ class AddContact(unittest.TestCase):
     
     def test_add_contact(self):
         wd = self.wd
-        # open page
-        wd.get("http://localhost/addressbook/")
-        # login
-        wd.find_element_by_name("user").clear()
-        wd.find_element_by_name("user").send_keys("admin")
-        wd.find_element_by_name("pass").clear()
-        wd.find_element_by_name("pass").send_keys("secret")
-        wd.find_element_by_xpath("//input[@value='Login']").click()
-        # init client creation
+        self.open_home_page(wd)
+        self.login(wd)
+        self.client_create(wd)
+        self.return_home_page(wd)
+        self.logout(wd)
+
+    def logout(self, wd):
+        wd.find_element_by_link_text("Logout").click()
+
+    def return_home_page(self, wd):
+        wd.find_element_by_link_text("home page").click()
+
+    def client_create(self, wd):
+        # client creation
         wd.find_element_by_link_text("add new").click()
         # fill form
         wd.find_element_by_name("firstname").click()
@@ -96,12 +101,19 @@ class AddContact(unittest.TestCase):
         wd.find_element_by_name("notes").clear()
         wd.find_element_by_name("notes").send_keys("dfdfs")
         # save client
-        wd.find_element_by_xpath("(.//*[normalize-space(text()) and normalize-space(.)='Notes:'])[1]/following::input[1]").click()
-        # open home page
-        wd.find_element_by_link_text("home page").click()
-        # logout
-        wd.find_element_by_link_text("Logout").click()
-    
+        wd.find_element_by_xpath(
+            "(.//*[normalize-space(text()) and normalize-space(.)='Notes:'])[1]/following::input[1]").click()
+
+    def login(self, wd):
+        wd.find_element_by_name("user").clear()
+        wd.find_element_by_name("user").send_keys("admin")
+        wd.find_element_by_name("pass").clear()
+        wd.find_element_by_name("pass").send_keys("secret")
+        wd.find_element_by_xpath("//input[@value='Login']").click()
+
+    def open_home_page(self, wd):
+        wd.get("http://localhost/addressbook/")
+
     def is_element_present(self, how, what):
         try: self.wd.find_element(by=how, value=what)
         except NoSuchElementException as e: return False
