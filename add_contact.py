@@ -15,13 +15,13 @@ class AddContact(unittest.TestCase):
         self.open_home_page(wd)
         self.login(wd)
         self.client_create(wd)
-        self.return_home_page(wd)
+        self.return_to_home_page(wd)
         self.logout(wd)
 
     def logout(self, wd):
         wd.find_element_by_link_text("Logout").click()
 
-    def return_home_page(self, wd):
+    def return_to_home_page(self, wd):
         wd.find_element_by_link_text("home page").click()
 
     def client_create(self, wd):
