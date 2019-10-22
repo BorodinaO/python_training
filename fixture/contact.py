@@ -1,7 +1,7 @@
 from selenium.webdriver.support.ui import Select
 
 
-class ContactHelper:
+class Contact:
 
     def __init__(self, app):
         self.app = app
@@ -90,3 +90,11 @@ class ContactHelper:
     def return_to_home_page(self):
         wd = self.app.wd
         wd.find_element_by_link_text("home page").click()
+
+    def delete_first_contact(self):
+        wd = self.app.wd
+        self.app.open_home_page()
+        wd.find_element_by_name("selected[]").click()
+        # submit deletion
+        wd.find_element_by_xpath("//input[@value='Delete']").click()
+        wd.switch_to_alert().accept()
