@@ -13,7 +13,7 @@ class Contact:
         # fill form
         self.contact_fill_form(contact)
         # save client
-        wd.find_element_by_xpath("(.//*[normalize-space(text()) and normalize-space(.)='Notes:'])[1]/following::input[1]").click()
+        wd.find_element_by_xpath("(//input[@name='submit'])[2]").click()
 
     def return_to_home_page(self):
         wd = self.app.wd
