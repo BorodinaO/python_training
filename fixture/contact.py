@@ -115,4 +115,10 @@ class Contact:
 
     def count(self):
         wd = self.app.wd
+        self.open_forms_page()
         return len(wd.find_elements_by_name("selected[]"))
+
+    def open_forms_page(self):
+        wd = self.app.wd
+        if not (wd.current_url.endswith("/addressbook/")):
+            wd.find_element_by_xpath("//img[@alt='Addressbook']").click()
