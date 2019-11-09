@@ -14,6 +14,7 @@ class Contact:
         self.contact_fill_form(contact)
         # save client
         wd.find_element_by_xpath("(//input[@name='submit'])[2]").click()
+        wd.find_element_by_link_text("home page").click()
 
     def return_to_home_page(self):
         wd = self.app.wd
@@ -114,4 +115,4 @@ class Contact:
 
     def count(self):
         wd = self.app.wd
-        return len(wd.find_elements_by_xpath("//img[@alt='Edit']"))
+        return len(wd.find_elements_by_name("selected[]"))
