@@ -22,19 +22,30 @@ class ContactFixture:
         wd = self.app.wd
         wd.find_element_by_link_text("home page").click()
 
-    def delete_first_contact(self):
+    def delete_contact_by_index(self, index):
         wd = self.app.wd
         self.app.open_home_page()
-        wd.find_element_by_name("selected[]").click()
+        self.select_contact_by_index(index)
         # submit deletion
         wd.find_element_by_xpath("//input[@value='Delete']").click()
         wd.switch_to_alert().accept()
         wd.find_element_by_css_selector("div.msgbox")
         self.contact_cache = None
 
-    def mod_first_contact(self, contact):
+    def delete_first_contact(self):
+        self.delete_contact_by_index(0)
+
+    def select_contact_by_index(self, index):
         wd = self.app.wd
-        wd.find_element_by_name("selected[]").click()
+        wd.find_elements_by_name("selected[]")[index].click()
+
+    def mod_first_contact(self, contact):
+        self.mod_contact_by_index(0)
+
+    def mod_contact_by_index(self, index, contact):
+        wd = self.app.wd
+        self.open_forms_page()
+        self.select_contact_by_index(index)
         wd.find_element_by_xpath("//img[@alt='Edit']").click()
         # fill form
         self.contact_fill_form(contact)
