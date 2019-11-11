@@ -45,8 +45,7 @@ class ContactFixture:
     def mod_contact_by_index(self, index, contact):
         wd = self.app.wd
         self.open_forms_page()
-        self.select_contact_by_index(index)
-        wd.find_element_by_xpath("//img[@alt='Edit']").click()
+        wd.find_elements_by_xpath("//img[@alt='Edit']")[index].click()
         # fill form
         self.contact_fill_form(contact)
         # save contact
