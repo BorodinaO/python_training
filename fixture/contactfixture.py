@@ -33,12 +33,26 @@ class ContactFixture:
         wd.find_element_by_css_selector("div.msgbox")
         self.contact_cache = None
 
+    def delete_contact_by_id(self, id):
+        wd = self.app.wd
+        self.app.open_home_page()
+        self.select_contact_by_id(id)
+        # submit deletion
+        wd.find_element_by_xpath("//input[@value='Delete']").click()
+        wd.switch_to_alert().accept()
+        wd.find_element_by_css_selector("div.msgbox")
+        self.contact_cache = None
+
     def delete_first_contact(self):
         self.delete_contact_by_index(0)
 
     def select_contact_by_index(self, index):
         wd = self.app.wd
         wd.find_elements_by_name("selected[]")[index].click()
+
+    def select_contact_by_id(self, id):
+        wd = self.app.wd
+        wd.find_element_by_css_selector("input[value='%s']" % id).click()
 
     def mod_first_contact(self, contact):
         self.mod_contact_by_index(0)
@@ -51,6 +65,17 @@ class ContactFixture:
         self.contact_fill_form(contact)
         # save contact
         wd.find_element_by_name("update").click()
+        self.contact_cache = None
+
+    def mod_contact_by_id(self, contact, id):
+        wd = self.app.wd
+        self.open_forms_page()
+        wd.get("http://localhost/addressbook/edit.php?id={0}".format(id))
+        # fill form
+        self.contact_fill_form(contact)
+        # save contact
+        wd.find_element_by_name("update").click()
+        self.return_to_home_page()
         self.contact_cache = None
 
     def contact_fill_form(self, contact):
@@ -122,6 +147,15 @@ class ContactFixture:
         row = wd.find_elements_by_name("entry")[index]
         cell = row.find_elements_by_tag_name("td")[7]
         cell.find_element_by_tag_name("a").click()
+
+    def open_contact_to_edit_by_id(self, contact, id):
+        wd = self.app.wd
+        self.open_forms_page()
+        wd.get("http://localhost/addressbook/edit.php?id={0}".format(id))
+        self.contact_fill_form(contact)
+        wd.find_element_by_name("update").click()
+        self.return_to_home_page()
+        self.contact_cache = None
 
     def open_contact_view_by_index(self, index):
         wd = self.app.wd
