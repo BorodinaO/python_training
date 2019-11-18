@@ -60,7 +60,7 @@ class DbFixture:
         try:
             cursor.execute("select group_id from address_in_groups")
             for row in cursor:
-                (id) = row
+                (id,) = row
                 list.append(Group(id=str(id)))
         finally:
             cursor.close()
