@@ -12,6 +12,8 @@ def test_contacts_on_home_page(app, db):
         assert contact_from_ui[index].address.replace(' ', '') == contact_from_db[index].address.replace(' ', '')
         assert contact_from_ui[index].all_phones_from_home_page == merge_phones_like_on_home_page(
             contact_from_db[index])
+        assert contact_from_ui[index].all_emails_from_home_page.replace(' ', '') == merge_emails_like_on_home_page(
+            contact_from_db[index])
 
 
 def clear(s):
