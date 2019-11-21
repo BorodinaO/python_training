@@ -1,0 +1,65 @@
+<ns0:test-suite xmlns:ns0="urn:model.allure.qatools.yandex.ru" start="1574360108997" stop="1574360128376">
+  <name>test.test_remove_contact_from_group</name>
+  <labels/>
+  <test-cases>
+    <test-case start="1574360108997" status="passed" stop="1574360128376">
+      <name>test_remove_contact_from_group</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="15248-MainThread"/>
+        <label name="host" value="mikhail"/>
+      </labels>
+      <steps>
+        <step start="1574360109071" status="passed" stop="1574360111051">
+          <name>Check for empty group list</name>
+          <title>Check for empty group list</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1574360111051" status="passed" stop="1574360119195">
+          <name>Check for empty contact list</name>
+          <title>Check for empty contact list</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1574360119195" status="passed" stop="1574360119196">
+          <name>Check for contact in group</name>
+          <title>Check for contact in group</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1574360119196" status="passed" stop="1574360119196">
+          <name>Choice group with contact</name>
+          <title>Choice group with contact</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1574360119196" status="passed" stop="1574360119199">
+          <name>Choice contact.id from group with contacts</name>
+          <title>Choice contact.id from group with contacts</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1574360119199" status="passed" stop="1574360119202">
+          <name>Save old contact list from group</name>
+          <title>Save old contact list from group</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1574360119202" status="passed" stop="1574360123104">
+          <name>Remove contact from group</name>
+          <title>Remove contact from group</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1574360123104" status="passed" stop="1574360128376">
+          <name>Compare new_contacct_list and old_contacct_list after remove contact</name>
+          <title>Compare new_contacct_list and old_contacct_list after remove contact</title>
+          <attachments/>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+  </test-cases>
+</ns0:test-suite>

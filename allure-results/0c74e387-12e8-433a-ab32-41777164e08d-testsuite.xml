@@ -1,0 +1,42 @@
+<ns0:test-suite xmlns:ns0="urn:model.allure.qatools.yandex.ru" start="1574360082264" stop="1574360089354">
+  <name>test.test_db_matches_ui</name>
+  <labels/>
+  <test-cases>
+    <test-case start="1574360082264" status="failed" stop="1574360089354">
+      <name>test_group_list</name>
+      <failure>
+        <message>AssertionError: assert False</message>
+        <stack-trace>app = &lt;fixture.application.Application object at 0x0481BFB0&gt;, db = &lt;fixture.db.DbFixture object at 0x04809970&gt;
+
+    def test_group_list(app, db):
+        with pytest.allure.step('Failure test'):
+            print(timeit(lambda: app.group.get_group_list(), number=1))
+    
+            def clean(group):
+                return Group(id=group.id, name=group.name.strip())
+    
+            print(timeit(lambda: map(clean, db.get_group_list()), number=1000))
+&gt;           assert False
+E           assert False
+
+test\test_db_matches_ui.py:14: AssertionError</stack-trace>
+      </failure>
+      <attachments>
+        <attachment source="3b28319e-2c91-4eaa-98ba-fb8d4760fea4-attachment.txt" title="Captured stdout call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="15248-MainThread"/>
+        <label name="host" value="mikhail"/>
+      </labels>
+      <steps>
+        <step start="1574360083658" status="failed" stop="1574360089314">
+          <name>Failure test</name>
+          <title>Failure test</title>
+          <attachments/>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+  </test-cases>
+</ns0:test-suite>

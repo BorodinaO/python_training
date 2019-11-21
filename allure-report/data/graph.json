@@ -1,0 +1,245 @@
+{
+  "testCases" : [ {
+    "uid" : "29fc185f8030296e",
+    "name" : "test_group_list",
+    "title" : "Test group list",
+    "time" : {
+      "start" : 1574360082264,
+      "stop" : 1574360089354,
+      "duration" : 7090
+    },
+    "severity" : "NORMAL",
+    "status" : "FAILED"
+  }, {
+    "uid" : "cf0e23c7fff259dd",
+    "name" : "test_mod_group",
+    "title" : "Test mod group",
+    "time" : {
+      "start" : 1574360103007,
+      "stop" : 1574360106412,
+      "duration" : 3405
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "ff80027b02b06f8f",
+    "name" : "test_contacts_on_home_page",
+    "title" : "Test contacts on home page",
+    "time" : {
+      "start" : 1574360074531,
+      "stop" : 1574360082263,
+      "duration" : 7732
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "91576d90226a8cdb",
+    "name" : "test_delete_some_group",
+    "title" : "Test delete some group",
+    "time" : {
+      "start" : 1574360093617,
+      "stop" : 1574360095976,
+      "duration" : 2359
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "bbb8ba82f69bca5b",
+    "name" : "test_add_contact[None::::::::::]",
+    "title" : "Test add contact [None::::::::::]",
+    "time" : {
+      "start" : 1574360029895,
+      "stop" : 1574360035275,
+      "duration" : 5380
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "ad22d510dd4d659c",
+    "name" : "test_add_contact[None:lastnamer 0GtXyC4:firstnamekK:emailp:email2Zvp1N q:email3  :home 1 5 :workpHR  S4VZl :phone2sU 5 IF:addressRkC:mobileO L4B0]",
+    "title" : "Test add contact [None:lastnamer 0GtXyC4:firstnamekK:emailp:email2Zvp1N q:email3  :home 1 5 :workpHR  S4VZl :phone2sU 5 IF:addressRkC:mobileO L4B0]",
+    "time" : {
+      "start" : 1574360035277,
+      "stop" : 1574360041744,
+      "duration" : 6467
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "4bc1a29c3e13ffd2",
+    "name" : "test_add_contact[None:lastnamer 0GtXyC4:firstnamekK:emailp:email2Zvp1N q:email3  :home 1 5 :workpHR  S4VZl :phone2sU 5 IF:addressRkC:mobileO L4B1]",
+    "title" : "Test add contact [None:lastnamer 0GtXyC4:firstnamekK:emailp:email2Zvp1N q:email3  :home 1 5 :workpHR  S4VZl :phone2sU 5 IF:addressRkC:mobileO L4B1]",
+    "time" : {
+      "start" : 1574360041746,
+      "stop" : 1574360048302,
+      "duration" : 6556
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "42dd2f330886b82d",
+    "name" : "test_add_contact[None:lastnamer 0GtXyC4:firstnamekK:emailp:email2Zvp1N q:email3  :home 1 5 :workpHR  S4VZl :phone2sU 5 IF:addressRkC:mobileO L4B2]",
+    "title" : "Test add contact [None:lastnamer 0GtXyC4:firstnamekK:emailp:email2Zvp1N q:email3  :home 1 5 :workpHR  S4VZl :phone2sU 5 IF:addressRkC:mobileO L4B2]",
+    "time" : {
+      "start" : 1574360048304,
+      "stop" : 1574360054832,
+      "duration" : 6528
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "fef86acfa4c3440a",
+    "name" : "test_add_contact[None:lastnamer 0GtXyC4:firstnamekK:emailp:email2Zvp1N q:email3  :home 1 5 :workpHR  S4VZl :phone2sU 5 IF:addressRkC:mobileO L4B3]",
+    "title" : "Test add contact [None:lastnamer 0GtXyC4:firstnamekK:emailp:email2Zvp1N q:email3  :home 1 5 :workpHR  S4VZl :phone2sU 5 IF:addressRkC:mobileO L4B3]",
+    "time" : {
+      "start" : 1574360054834,
+      "stop" : 1574360061293,
+      "duration" : 6459
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "4883c0788c286d65",
+    "name" : "test_add_contact[None:lastnamer 0GtXyC4:firstnamekK:emailp:email2Zvp1N q:email3  :home 1 5 :workpHR  S4VZl :phone2sU 5 IF:addressRkC:mobileO L4B4]",
+    "title" : "Test add contact [None:lastnamer 0GtXyC4:firstnamekK:emailp:email2Zvp1N q:email3  :home 1 5 :workpHR  S4VZl :phone2sU 5 IF:addressRkC:mobileO L4B4]",
+    "time" : {
+      "start" : 1574360061295,
+      "stop" : 1574360067770,
+      "duration" : 6475
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "b69b5258cc8762c7",
+    "name" : "test_delete_first_contact",
+    "title" : "Test delete first contact",
+    "time" : {
+      "start" : 1574360089357,
+      "stop" : 1574360093616,
+      "duration" : 4259
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "2893d0aecb69fa96",
+    "name" : "test_add_contact_in_group",
+    "title" : "Test add contact in group",
+    "time" : {
+      "start" : 1574360067772,
+      "stop" : 1574360074529,
+      "duration" : 6757
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "1e4f5b65e720d4e5",
+    "name" : "test_mod_contact",
+    "title" : "Test mod contact",
+    "time" : {
+      "start" : 1574360095977,
+      "stop" : 1574360103006,
+      "duration" : 7029
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "bd87bb8ba19ffc8b",
+    "name" : "test_modify_group_name",
+    "title" : "Test modify group name",
+    "time" : {
+      "start" : 1574360106413,
+      "stop" : 1574360107670,
+      "duration" : 1257
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "f1eaf2af9fe04753",
+    "name" : "test_modify_group_header",
+    "title" : "Test modify group header",
+    "time" : {
+      "start" : 1574360107672,
+      "stop" : 1574360108993,
+      "duration" : 1321
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "e254860d7477cc92",
+    "name" : "test_remove_contact_from_group",
+    "title" : "Test remove contact from group",
+    "time" : {
+      "start" : 1574360108997,
+      "stop" : 1574360128376,
+      "duration" : 19379
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "9a5ad6d31036f957",
+    "name" : "test_add_group[None:::]",
+    "title" : "Test add group [None:::]",
+    "time" : {
+      "start" : 1574360005568,
+      "stop" : 1574360021535,
+      "duration" : 15967
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "6db9b744d1c34356",
+    "name" : "test_add_group[None:nameT:headerzWewRopZ2M:footerT6f cdDu]",
+    "title" : "Test add group [None:nameT:headerzWewRopZ2M:footerT6f cdDu]",
+    "time" : {
+      "start" : 1574360021536,
+      "stop" : 1574360023178,
+      "duration" : 1642
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "5da728752754d6d8",
+    "name" : "test_add_group[None:name Wvz:headerKlQ6 c8 XF6Crd:footer6K]",
+    "title" : "Test add group [None:name Wvz:headerKlQ6 c8 XF6Crd:footer6K]",
+    "time" : {
+      "start" : 1574360023179,
+      "stop" : 1574360024910,
+      "duration" : 1731
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "43c5d91ef7c0b0ea",
+    "name" : "test_add_group[None:name5EBvGt:header W5PKGVIi e3XYj tj3:footer]",
+    "title" : "Test add group [None:name5EBvGt:header W5PKGVIi e3XYj tj3:footer]",
+    "time" : {
+      "start" : 1574360024911,
+      "stop" : 1574360026566,
+      "duration" : 1655
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "15676776003684e7",
+    "name" : "test_add_group[None:nameDpFd8Y K:header:footerp eNtB cR]",
+    "title" : "Test add group [None:nameDpFd8Y K:header:footerp eNtB cR]",
+    "time" : {
+      "start" : 1574360026567,
+      "stop" : 1574360028162,
+      "duration" : 1595
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "d0038ccc374f2bf3",
+    "name" : "test_add_group[None:name3o M:header1U  pQZlwU KA9Inr:footerQuU0AMwRvRQvDSUuf]",
+    "title" : "Test add group [None:name3o M:header1U  pQZlwU KA9Inr:footerQuU0AMwRvRQvDSUuf]",
+    "time" : {
+      "start" : 1574360028162,
+      "stop" : 1574360029894,
+      "duration" : 1732
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  } ]
+}

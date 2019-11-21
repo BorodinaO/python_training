@@ -1,0 +1,104 @@
+{
+  "uid" : "b69b5258cc8762c7",
+  "name" : "test_delete_first_contact",
+  "title" : "Test delete first contact",
+  "time" : {
+    "start" : 1574360089357,
+    "stop" : 1574360093616,
+    "duration" : 4259
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 4
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "ab298748df2c5ee2",
+    "name" : "test.test_del_contact",
+    "title" : "Test del contact"
+  },
+  "steps" : [ {
+    "name" : "Given a contact list",
+    "title" : "Given a contact list",
+    "time" : {
+      "start" : 1574360089444,
+      "stop" : 1574360089451,
+      "duration" : 7
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "Save old contact list",
+    "title" : "Save old contact list",
+    "time" : {
+      "start" : 1574360089451,
+      "stop" : 1574360089459,
+      "duration" : 8
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "Choice contact and delete",
+    "title" : "Choice contact and delete",
+    "time" : {
+      "start" : 1574360089459,
+      "stop" : 1574360091953,
+      "duration" : 2494
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "Compare new_contacts and old_contacts after delete contact",
+    "title" : "Compare new_contacts and old_contacts after delete contact",
+    "time" : {
+      "start" : 1574360091953,
+      "stop" : 1574360093616,
+      "duration" : 1663
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "mikhail"
+  }, {
+    "name" : "thread",
+    "value" : "15248-MainThread"
+  }, {
+    "name" : "suite-title",
+    "value" : null
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "suite-name",
+    "value" : "test.test_del_contact"
+  } ],
+  "parameters" : [ ]
+}

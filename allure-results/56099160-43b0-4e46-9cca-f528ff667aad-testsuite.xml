@@ -1,0 +1,41 @@
+<ns0:test-suite xmlns:ns0="urn:model.allure.qatools.yandex.ru" start="1574360089357" stop="1574360093616">
+  <name>test.test_del_contact</name>
+  <labels/>
+  <test-cases>
+    <test-case start="1574360089357" status="passed" stop="1574360093616">
+      <name>test_delete_first_contact</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="15248-MainThread"/>
+        <label name="host" value="mikhail"/>
+      </labels>
+      <steps>
+        <step start="1574360089444" status="passed" stop="1574360089451">
+          <name>Given a contact list</name>
+          <title>Given a contact list</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1574360089451" status="passed" stop="1574360089459">
+          <name>Save old contact list</name>
+          <title>Save old contact list</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1574360089459" status="passed" stop="1574360091953">
+          <name>Choice contact and delete</name>
+          <title>Choice contact and delete</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1574360091953" status="passed" stop="1574360093616">
+          <name>Compare new_contacts and old_contacts after delete contact</name>
+          <title>Compare new_contacts and old_contacts after delete contact</title>
+          <attachments/>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+  </test-cases>
+</ns0:test-suite>

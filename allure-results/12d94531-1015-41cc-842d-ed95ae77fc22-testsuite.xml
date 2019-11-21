@@ -1,0 +1,35 @@
+<ns0:test-suite xmlns:ns0="urn:model.allure.qatools.yandex.ru" start="1574360103007" stop="1574360106412">
+  <name>test.test_mod_group</name>
+  <labels/>
+  <test-cases>
+    <test-case start="1574360103007" status="passed" stop="1574360106412">
+      <name>test_mod_group</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="15248-MainThread"/>
+        <label name="host" value="mikhail"/>
+      </labels>
+      <steps>
+        <step start="1574360104358" status="passed" stop="1574360104373">
+          <name>Given a group list</name>
+          <title>Given a group list</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1574360104373" status="passed" stop="1574360106405">
+          <name>Choice group and modify</name>
+          <title>Choice group and modify</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1574360106405" status="passed" stop="1574360106411">
+          <name>Compare new_groups and old_groups after modify group</name>
+          <title>Compare new_groups and old_groups after modify group</title>
+          <attachments/>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+  </test-cases>
+</ns0:test-suite>

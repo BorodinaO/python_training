@@ -1,0 +1,89 @@
+{
+  "uid" : "ad22d510dd4d659c",
+  "name" : "test_add_contact[None:lastnamer 0GtXyC4:firstnamekK:emailp:email2Zvp1N q:email3  :home 1 5 :workpHR  S4VZl :phone2sU 5 IF:addressRkC:mobileO L4B0]",
+  "title" : "Test add contact [None:lastnamer 0GtXyC4:firstnamekK:emailp:email2Zvp1N q:email3  :home 1 5 :workpHR  S4VZl :phone2sU 5 IF:addressRkC:mobileO L4B0]",
+  "time" : {
+    "start" : 1574360035277,
+    "stop" : 1574360041744,
+    "duration" : 6467
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 3
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "b864a22cf086ffde",
+    "name" : "test.test_add_contact",
+    "title" : "Test add contact"
+  },
+  "steps" : [ {
+    "name" : "Given a contact list",
+    "title" : "Given a contact list",
+    "time" : {
+      "start" : 1574360036582,
+      "stop" : 1574360036587,
+      "duration" : 5
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "When I add a contact None:lastnamer 0GtXyC4:firstnamekK:emailp:email2Zvp1N q:email3  :home 1 5 :workpHR  S4VZl :phone2sU 5 IF:addressRkC:mobileO L4B to the list",
+    "title" : "When I add a contact None:lastnamer 0GtXyC4:firstnamekK:emailp:email2Zvp1N q:email3  :home 1 5 :workpHR  S4VZl :phone2sU 5 IF:addressRkC:mobileO L4B to the list",
+    "time" : {
+      "start" : 1574360036587,
+      "stop" : 1574360041731,
+      "duration" : 5144
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "Compare new_contacts and old_contacts after add contact",
+    "title" : "Compare new_contacts and old_contacts after add contact",
+    "time" : {
+      "start" : 1574360041731,
+      "stop" : 1574360041743,
+      "duration" : 12
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "mikhail"
+  }, {
+    "name" : "thread",
+    "value" : "15248-MainThread"
+  }, {
+    "name" : "suite-name",
+    "value" : "test.test_add_contact"
+  }, {
+    "name" : "suite-title",
+    "value" : null
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  } ],
+  "parameters" : [ ]
+}

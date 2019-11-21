@@ -1,0 +1,119 @@
+{
+  "uid" : "2893d0aecb69fa96",
+  "name" : "test_add_contact_in_group",
+  "title" : "Test add contact in group",
+  "time" : {
+    "start" : 1574360067772,
+    "stop" : 1574360074529,
+    "duration" : 6757
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 5
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "437d42f1f236c651",
+    "name" : "test.test_add_contact_in_group",
+    "title" : "Test add contact in group"
+  },
+  "steps" : [ {
+    "name" : "Get group",
+    "title" : "Get group",
+    "time" : {
+      "start" : 1574360069160,
+      "stop" : 1574360069166,
+      "duration" : 6
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "Get contact not in this group",
+    "title" : "Get contact not in this group",
+    "time" : {
+      "start" : 1574360069166,
+      "stop" : 1574360069203,
+      "duration" : 37
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "Save old contact list",
+    "title" : "Save old contact list",
+    "time" : {
+      "start" : 1574360069203,
+      "stop" : 1574360069206,
+      "duration" : 3
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "Add contact in group",
+    "title" : "Add contact in group",
+    "time" : {
+      "start" : 1574360069206,
+      "stop" : 1574360074519,
+      "duration" : 5313
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "Compare new_contacts and old_contacts after add contact",
+    "title" : "Compare new_contacts and old_contacts after add contact",
+    "time" : {
+      "start" : 1574360074520,
+      "stop" : 1574360074529,
+      "duration" : 9
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "mikhail"
+  }, {
+    "name" : "thread",
+    "value" : "15248-MainThread"
+  }, {
+    "name" : "suite-title",
+    "value" : null
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "suite-name",
+    "value" : "test.test_add_contact_in_group"
+  } ],
+  "parameters" : [ ]
+}

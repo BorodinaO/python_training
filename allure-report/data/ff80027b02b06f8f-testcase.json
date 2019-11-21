@@ -1,0 +1,89 @@
+{
+  "uid" : "ff80027b02b06f8f",
+  "name" : "test_contacts_on_home_page",
+  "title" : "Test contacts on home page",
+  "time" : {
+    "start" : 1574360074531,
+    "stop" : 1574360082263,
+    "duration" : 7732
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 3
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "dec262e42b162dfe",
+    "name" : "test.test_contacts",
+    "title" : "Test contacts"
+  },
+  "steps" : [ {
+    "name" : "Given a contact list from ui",
+    "title" : "Given a contact list from ui",
+    "time" : {
+      "start" : 1574360075911,
+      "stop" : 1574360082254,
+      "duration" : 6343
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "Given a contact list from db",
+    "title" : "Given a contact list from db",
+    "time" : {
+      "start" : 1574360082254,
+      "stop" : 1574360082259,
+      "duration" : 5
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "Compare contact list",
+    "title" : "Compare contact list",
+    "time" : {
+      "start" : 1574360082259,
+      "stop" : 1574360082262,
+      "duration" : 3
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "mikhail"
+  }, {
+    "name" : "thread",
+    "value" : "15248-MainThread"
+  }, {
+    "name" : "suite-name",
+    "value" : "test.test_contacts"
+  }, {
+    "name" : "suite-title",
+    "value" : null
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  } ],
+  "parameters" : [ ]
+}

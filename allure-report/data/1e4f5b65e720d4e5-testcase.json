@@ -1,0 +1,89 @@
+{
+  "uid" : "1e4f5b65e720d4e5",
+  "name" : "test_mod_contact",
+  "title" : "Test mod contact",
+  "time" : {
+    "start" : 1574360095977,
+    "stop" : 1574360103006,
+    "duration" : 7029
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 3
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "2286a8d9a757b5c9",
+    "name" : "test.test_mod_contact",
+    "title" : "Test mod contact"
+  },
+  "steps" : [ {
+    "name" : "Given a contact list",
+    "title" : "Given a contact list",
+    "time" : {
+      "start" : 1574360096045,
+      "stop" : 1574360096056,
+      "duration" : 11
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "Mod contact from contact list",
+    "title" : "Mod contact from contact list",
+    "time" : {
+      "start" : 1574360096056,
+      "stop" : 1574360102993,
+      "duration" : 6937
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "Compare new_contacts and old_contacts after modify contact",
+    "title" : "Compare new_contacts and old_contacts after modify contact",
+    "time" : {
+      "start" : 1574360102993,
+      "stop" : 1574360103005,
+      "duration" : 12
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "mikhail"
+  }, {
+    "name" : "thread",
+    "value" : "15248-MainThread"
+  }, {
+    "name" : "suite-name",
+    "value" : "test.test_mod_contact"
+  }, {
+    "name" : "suite-title",
+    "value" : null
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  } ],
+  "parameters" : [ ]
+}

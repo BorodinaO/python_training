@@ -1,0 +1,35 @@
+<ns0:test-suite xmlns:ns0="urn:model.allure.qatools.yandex.ru" start="1574360074531" stop="1574360082263">
+  <name>test.test_contacts</name>
+  <labels/>
+  <test-cases>
+    <test-case start="1574360074531" status="passed" stop="1574360082263">
+      <name>test_contacts_on_home_page</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="15248-MainThread"/>
+        <label name="host" value="mikhail"/>
+      </labels>
+      <steps>
+        <step start="1574360075911" status="passed" stop="1574360082254">
+          <name>Given a contact list from ui</name>
+          <title>Given a contact list from ui</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1574360082254" status="passed" stop="1574360082259">
+          <name>Given a contact list from db</name>
+          <title>Given a contact list from db</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1574360082259" status="passed" stop="1574360082262">
+          <name>Compare contact list</name>
+          <title>Compare contact list</title>
+          <attachments/>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+  </test-cases>
+</ns0:test-suite>

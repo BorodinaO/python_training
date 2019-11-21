@@ -1,0 +1,59 @@
+{
+  "uid" : "f1eaf2af9fe04753",
+  "name" : "test_modify_group_header",
+  "title" : "Test modify group header",
+  "time" : {
+    "start" : 1574360107672,
+    "stop" : 1574360108993,
+    "duration" : 1321
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 1
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "aae8465a69d2a9ea",
+    "name" : "test.test_modify_group",
+    "title" : "Test modify group"
+  },
+  "steps" : [ {
+    "name" : "Modify group header",
+    "title" : "Modify group header",
+    "time" : {
+      "start" : 1574360107735,
+      "stop" : 1574360108993,
+      "duration" : 1258
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "mikhail"
+  }, {
+    "name" : "suite-name",
+    "value" : "test.test_modify_group"
+  }, {
+    "name" : "thread",
+    "value" : "15248-MainThread"
+  }, {
+    "name" : "suite-title",
+    "value" : null
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  } ],
+  "parameters" : [ ]
+}

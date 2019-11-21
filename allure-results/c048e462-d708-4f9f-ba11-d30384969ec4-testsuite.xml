@@ -1,0 +1,40 @@
+<ns0:test-suite xmlns:ns0="urn:model.allure.qatools.yandex.ru" start="1574360106413" stop="1574360108993">
+  <name>test.test_modify_group</name>
+  <labels/>
+  <test-cases>
+    <test-case start="1574360106413" status="passed" stop="1574360107670">
+      <name>test_modify_group_name</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="15248-MainThread"/>
+        <label name="host" value="mikhail"/>
+      </labels>
+      <steps>
+        <step start="1574360106478" status="passed" stop="1574360107670">
+          <name>Modify group name</name>
+          <title>Modify group name</title>
+          <attachments/>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+    <test-case start="1574360107672" status="passed" stop="1574360108993">
+      <name>test_modify_group_header</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="15248-MainThread"/>
+        <label name="host" value="mikhail"/>
+      </labels>
+      <steps>
+        <step start="1574360107735" status="passed" stop="1574360108993">
+          <name>Modify group header</name>
+          <title>Modify group header</title>
+          <attachments/>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+  </test-cases>
+</ns0:test-suite>

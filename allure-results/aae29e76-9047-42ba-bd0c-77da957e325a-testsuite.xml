@@ -1,0 +1,35 @@
+<ns0:test-suite xmlns:ns0="urn:model.allure.qatools.yandex.ru" start="1574360095977" stop="1574360103006">
+  <name>test.test_mod_contact</name>
+  <labels/>
+  <test-cases>
+    <test-case start="1574360095977" status="passed" stop="1574360103006">
+      <name>test_mod_contact</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="15248-MainThread"/>
+        <label name="host" value="mikhail"/>
+      </labels>
+      <steps>
+        <step start="1574360096045" status="passed" stop="1574360096056">
+          <name>Given a contact list</name>
+          <title>Given a contact list</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1574360096056" status="passed" stop="1574360102993">
+          <name>Mod contact from contact list</name>
+          <title>Mod contact from contact list</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1574360102993" status="passed" stop="1574360103005">
+          <name>Compare new_contacts and old_contacts after modify contact</name>
+          <title>Compare new_contacts and old_contacts after modify contact</title>
+          <attachments/>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+  </test-cases>
+</ns0:test-suite>

@@ -1,0 +1,89 @@
+{
+  "uid" : "6e041f1f1fdefca2",
+  "name" : "test_add_group[None:nameDpFd8Y K:header:footerp eNtB cR]",
+  "title" : "Test add group [None:nameDpFd8Y K:header:footerp eNtB cR]",
+  "time" : {
+    "start" : 1574357131282,
+    "stop" : 1574357132920,
+    "duration" : 1638
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 3
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "1bdd7b98b123930a",
+    "name" : "test.Test_Add_Group",
+    "title" : "Test add group"
+  },
+  "steps" : [ {
+    "name" : "Given a group list",
+    "title" : "Given a group list",
+    "time" : {
+      "start" : 1574357131351,
+      "stop" : 1574357131351,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "When I add a group None:nameDpFd8Y K:header:footerp eNtB cR the list",
+    "title" : "When I add a group None:nameDpFd8Y K:header:footerp eNtB cR the list",
+    "time" : {
+      "start" : 1574357131351,
+      "stop" : 1574357132920,
+      "duration" : 1569
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "Then the new group list is equal to the old list with the added group",
+    "title" : "Then the new group list is equal to the old list with the added group",
+    "time" : {
+      "start" : 1574357132920,
+      "stop" : 1574357132920,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "mikhail"
+  }, {
+    "name" : "suite-name",
+    "value" : "test.Test_Add_Group"
+  }, {
+    "name" : "suite-title",
+    "value" : null
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "thread",
+    "value" : "14792-MainThread"
+  } ],
+  "parameters" : [ ]
+}

@@ -1,0 +1,89 @@
+{
+  "uid" : "8dc28f977fb9e78c",
+  "name" : "test_add_group[None:name5EBvGt:header W5PKGVIi e3XYj tj3:footer]",
+  "title" : "Test add group [None:name5EBvGt:header W5PKGVIi e3XYj tj3:footer]",
+  "time" : {
+    "start" : 1574357129657,
+    "stop" : 1574357131266,
+    "duration" : 1609
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 3
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "1bdd7b98b123930a",
+    "name" : "test.Test_Add_Group",
+    "title" : "Test add group"
+  },
+  "steps" : [ {
+    "name" : "Given a group list",
+    "title" : "Given a group list",
+    "time" : {
+      "start" : 1574357129729,
+      "stop" : 1574357129733,
+      "duration" : 4
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "When I add a group None:name5EBvGt:header W5PKGVIi e3XYj tj3:footer the list",
+    "title" : "When I add a group None:name5EBvGt:header W5PKGVIi e3XYj tj3:footer the list",
+    "time" : {
+      "start" : 1574357129733,
+      "stop" : 1574357131266,
+      "duration" : 1533
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "Then the new group list is equal to the old list with the added group",
+    "title" : "Then the new group list is equal to the old list with the added group",
+    "time" : {
+      "start" : 1574357131266,
+      "stop" : 1574357131266,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "mikhail"
+  }, {
+    "name" : "suite-name",
+    "value" : "test.Test_Add_Group"
+  }, {
+    "name" : "suite-title",
+    "value" : null
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "thread",
+    "value" : "14792-MainThread"
+  } ],
+  "parameters" : [ ]
+}

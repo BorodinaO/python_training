@@ -1,0 +1,164 @@
+{
+  "uid" : "e254860d7477cc92",
+  "name" : "test_remove_contact_from_group",
+  "title" : "Test remove contact from group",
+  "time" : {
+    "start" : 1574360108997,
+    "stop" : 1574360128376,
+    "duration" : 19379
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 8
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "c9f5b2a2de7b6efd",
+    "name" : "test.test_remove_contact_from_group",
+    "title" : "Test remove contact from group"
+  },
+  "steps" : [ {
+    "name" : "Check for empty group list",
+    "title" : "Check for empty group list",
+    "time" : {
+      "start" : 1574360109071,
+      "stop" : 1574360111051,
+      "duration" : 1980
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "Check for empty contact list",
+    "title" : "Check for empty contact list",
+    "time" : {
+      "start" : 1574360111051,
+      "stop" : 1574360119195,
+      "duration" : 8144
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "Check for contact in group",
+    "title" : "Check for contact in group",
+    "time" : {
+      "start" : 1574360119195,
+      "stop" : 1574360119196,
+      "duration" : 1
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "Choice group with contact",
+    "title" : "Choice group with contact",
+    "time" : {
+      "start" : 1574360119196,
+      "stop" : 1574360119196,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "Choice contact.id from group with contacts",
+    "title" : "Choice contact.id from group with contacts",
+    "time" : {
+      "start" : 1574360119196,
+      "stop" : 1574360119199,
+      "duration" : 3
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "Save old contact list from group",
+    "title" : "Save old contact list from group",
+    "time" : {
+      "start" : 1574360119199,
+      "stop" : 1574360119202,
+      "duration" : 3
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "Remove contact from group",
+    "title" : "Remove contact from group",
+    "time" : {
+      "start" : 1574360119202,
+      "stop" : 1574360123104,
+      "duration" : 3902
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "Compare new_contacct_list and old_contacct_list after remove contact",
+    "title" : "Compare new_contacct_list and old_contacct_list after remove contact",
+    "time" : {
+      "start" : 1574360123104,
+      "stop" : 1574360128376,
+      "duration" : 5272
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "mikhail"
+  }, {
+    "name" : "thread",
+    "value" : "15248-MainThread"
+  }, {
+    "name" : "suite-title",
+    "value" : null
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "suite-name",
+    "value" : "test.test_remove_contact_from_group"
+  } ],
+  "parameters" : [ ]
+}

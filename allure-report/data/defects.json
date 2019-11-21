@@ -1,0 +1,29 @@
+{
+  "defectsList" : [ {
+    "title" : "Product defects",
+    "status" : "FAILED",
+    "defects" : [ {
+      "uid" : "b76d4dc7eb0624b4",
+      "failure" : {
+        "message" : "AssertionError: assert False",
+        "stackTrace" : "app = <fixture.application.Application object at 0x0481BFB0>, db = <fixture.db.DbFixture object at 0x04809970>\n\n    def test_group_list(app, db):\n        with pytest.allure.step('Failure test'):\n            print(timeit(lambda: app.group.get_group_list(), number=1))\n    \n            def clean(group):\n                return Group(id=group.id, name=group.name.strip())\n    \n            print(timeit(lambda: map(clean, db.get_group_list()), number=1000))\n>           assert False\nE           assert False\n\ntest\\test_db_matches_ui.py:14: AssertionError"
+      },
+      "testCases" : [ {
+        "uid" : "29fc185f8030296e",
+        "name" : "test_group_list",
+        "title" : "Test group list",
+        "time" : {
+          "start" : 1574360082264,
+          "stop" : 1574360089354,
+          "duration" : 7090
+        },
+        "severity" : "NORMAL",
+        "status" : "FAILED"
+      } ]
+    } ]
+  }, {
+    "title" : "Test defects",
+    "status" : "BROKEN",
+    "defects" : [ ]
+  } ]
+}

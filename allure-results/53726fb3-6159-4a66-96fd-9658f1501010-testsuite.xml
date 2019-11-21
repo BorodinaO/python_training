@@ -1,0 +1,41 @@
+<ns0:test-suite xmlns:ns0="urn:model.allure.qatools.yandex.ru" start="1574360093617" stop="1574360095976">
+  <name>test.test_del_group</name>
+  <labels/>
+  <test-cases>
+    <test-case start="1574360093617" status="passed" stop="1574360095976">
+      <name>test_delete_some_group</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="15248-MainThread"/>
+        <label name="host" value="mikhail"/>
+      </labels>
+      <steps>
+        <step start="1574360094943" status="passed" stop="1574360094946">
+          <name>Given a group list</name>
+          <title>Given a group list</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1574360094946" status="passed" stop="1574360094949">
+          <name>Save old group list</name>
+          <title>Save old group list</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1574360094949" status="passed" stop="1574360095886">
+          <name>Choice group and delete</name>
+          <title>Choice group and delete</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1574360095886" status="passed" stop="1574360095975">
+          <name>Compare new_groups and old_groups after delete group</name>
+          <title>Compare new_groups and old_groups after delete group</title>
+          <attachments/>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+  </test-cases>
+</ns0:test-suite>

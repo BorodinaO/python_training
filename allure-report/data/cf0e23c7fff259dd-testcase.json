@@ -1,0 +1,89 @@
+{
+  "uid" : "cf0e23c7fff259dd",
+  "name" : "test_mod_group",
+  "title" : "Test mod group",
+  "time" : {
+    "start" : 1574360103007,
+    "stop" : 1574360106412,
+    "duration" : 3405
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 3
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "acb478863b25512c",
+    "name" : "test.test_mod_group",
+    "title" : "Test mod group"
+  },
+  "steps" : [ {
+    "name" : "Given a group list",
+    "title" : "Given a group list",
+    "time" : {
+      "start" : 1574360104358,
+      "stop" : 1574360104373,
+      "duration" : 15
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "Choice group and modify",
+    "title" : "Choice group and modify",
+    "time" : {
+      "start" : 1574360104373,
+      "stop" : 1574360106405,
+      "duration" : 2032
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "Compare new_groups and old_groups after modify group",
+    "title" : "Compare new_groups and old_groups after modify group",
+    "time" : {
+      "start" : 1574360106405,
+      "stop" : 1574360106411,
+      "duration" : 6
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "mikhail"
+  }, {
+    "name" : "thread",
+    "value" : "15248-MainThread"
+  }, {
+    "name" : "suite-title",
+    "value" : null
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "suite-name",
+    "value" : "test.test_mod_group"
+  } ],
+  "parameters" : [ ]
+}

@@ -1,0 +1,180 @@
+<ns0:test-suite xmlns:ns0="urn:model.allure.qatools.yandex.ru" start="1574360029895" stop="1574360067770">
+  <name>test.test_add_contact</name>
+  <labels/>
+  <test-cases>
+    <test-case start="1574360029895" status="passed" stop="1574360035275">
+      <name>test_add_contact[None::::::::::]</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="15248-MainThread"/>
+        <label name="host" value="mikhail"/>
+      </labels>
+      <steps>
+        <step start="1574360029972" status="passed" stop="1574360029977">
+          <name>Given a contact list</name>
+          <title>Given a contact list</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1574360029977" status="passed" stop="1574360035262">
+          <name>When I add a contact None:::::::::: to the list</name>
+          <title>When I add a contact None:::::::::: to the list</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1574360035262" status="passed" stop="1574360035274">
+          <name>Compare new_contacts and old_contacts after add contact</name>
+          <title>Compare new_contacts and old_contacts after add contact</title>
+          <attachments/>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+    <test-case start="1574360035277" status="passed" stop="1574360041744">
+      <name>test_add_contact[None:lastnamer 0GtXyC4:firstnamekK:emailp:email2Zvp1N q:email3  :home 1 5 :workpHR  S4VZl :phone2sU 5 IF:addressRkC:mobileO L4B0]</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="15248-MainThread"/>
+        <label name="host" value="mikhail"/>
+      </labels>
+      <steps>
+        <step start="1574360036582" status="passed" stop="1574360036587">
+          <name>Given a contact list</name>
+          <title>Given a contact list</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1574360036587" status="passed" stop="1574360041731">
+          <name>When I add a contact None:lastnamer 0GtXyC4:firstnamekK:emailp:email2Zvp1N q:email3  :home 1 5 :workpHR  S4VZl :phone2sU 5 IF:addressRkC:mobileO L4B to the list</name>
+          <title>When I add a contact None:lastnamer 0GtXyC4:firstnamekK:emailp:email2Zvp1N q:email3  :home 1 5 :workpHR  S4VZl :phone2sU 5 IF:addressRkC:mobileO L4B to the list</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1574360041731" status="passed" stop="1574360041743">
+          <name>Compare new_contacts and old_contacts after add contact</name>
+          <title>Compare new_contacts and old_contacts after add contact</title>
+          <attachments/>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+    <test-case start="1574360041746" status="passed" stop="1574360048302">
+      <name>test_add_contact[None:lastnamer 0GtXyC4:firstnamekK:emailp:email2Zvp1N q:email3  :home 1 5 :workpHR  S4VZl :phone2sU 5 IF:addressRkC:mobileO L4B1]</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="15248-MainThread"/>
+        <label name="host" value="mikhail"/>
+      </labels>
+      <steps>
+        <step start="1574360043013" status="passed" stop="1574360043020">
+          <name>Given a contact list</name>
+          <title>Given a contact list</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1574360043020" status="passed" stop="1574360048290">
+          <name>When I add a contact None:lastnamer 0GtXyC4:firstnamekK:emailp:email2Zvp1N q:email3  :home 1 5 :workpHR  S4VZl :phone2sU 5 IF:addressRkC:mobileO L4B to the list</name>
+          <title>When I add a contact None:lastnamer 0GtXyC4:firstnamekK:emailp:email2Zvp1N q:email3  :home 1 5 :workpHR  S4VZl :phone2sU 5 IF:addressRkC:mobileO L4B to the list</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1574360048290" status="passed" stop="1574360048302">
+          <name>Compare new_contacts and old_contacts after add contact</name>
+          <title>Compare new_contacts and old_contacts after add contact</title>
+          <attachments/>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+    <test-case start="1574360048304" status="passed" stop="1574360054832">
+      <name>test_add_contact[None:lastnamer 0GtXyC4:firstnamekK:emailp:email2Zvp1N q:email3  :home 1 5 :workpHR  S4VZl :phone2sU 5 IF:addressRkC:mobileO L4B2]</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="15248-MainThread"/>
+        <label name="host" value="mikhail"/>
+      </labels>
+      <steps>
+        <step start="1574360049606" status="passed" stop="1574360049612">
+          <name>Given a contact list</name>
+          <title>Given a contact list</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1574360049612" status="passed" stop="1574360054818">
+          <name>When I add a contact None:lastnamer 0GtXyC4:firstnamekK:emailp:email2Zvp1N q:email3  :home 1 5 :workpHR  S4VZl :phone2sU 5 IF:addressRkC:mobileO L4B to the list</name>
+          <title>When I add a contact None:lastnamer 0GtXyC4:firstnamekK:emailp:email2Zvp1N q:email3  :home 1 5 :workpHR  S4VZl :phone2sU 5 IF:addressRkC:mobileO L4B to the list</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1574360054818" status="passed" stop="1574360054832">
+          <name>Compare new_contacts and old_contacts after add contact</name>
+          <title>Compare new_contacts and old_contacts after add contact</title>
+          <attachments/>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+    <test-case start="1574360054834" status="passed" stop="1574360061293">
+      <name>test_add_contact[None:lastnamer 0GtXyC4:firstnamekK:emailp:email2Zvp1N q:email3  :home 1 5 :workpHR  S4VZl :phone2sU 5 IF:addressRkC:mobileO L4B3]</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="15248-MainThread"/>
+        <label name="host" value="mikhail"/>
+      </labels>
+      <steps>
+        <step start="1574360056168" status="passed" stop="1574360056175">
+          <name>Given a contact list</name>
+          <title>Given a contact list</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1574360056175" status="passed" stop="1574360061279">
+          <name>When I add a contact None:lastnamer 0GtXyC4:firstnamekK:emailp:email2Zvp1N q:email3  :home 1 5 :workpHR  S4VZl :phone2sU 5 IF:addressRkC:mobileO L4B to the list</name>
+          <title>When I add a contact None:lastnamer 0GtXyC4:firstnamekK:emailp:email2Zvp1N q:email3  :home 1 5 :workpHR  S4VZl :phone2sU 5 IF:addressRkC:mobileO L4B to the list</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1574360061279" status="passed" stop="1574360061293">
+          <name>Compare new_contacts and old_contacts after add contact</name>
+          <title>Compare new_contacts and old_contacts after add contact</title>
+          <attachments/>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+    <test-case start="1574360061295" status="passed" stop="1574360067770">
+      <name>test_add_contact[None:lastnamer 0GtXyC4:firstnamekK:emailp:email2Zvp1N q:email3  :home 1 5 :workpHR  S4VZl :phone2sU 5 IF:addressRkC:mobileO L4B4]</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="15248-MainThread"/>
+        <label name="host" value="mikhail"/>
+      </labels>
+      <steps>
+        <step start="1574360062588" status="passed" stop="1574360062594">
+          <name>Given a contact list</name>
+          <title>Given a contact list</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1574360062594" status="passed" stop="1574360067746">
+          <name>When I add a contact None:lastnamer 0GtXyC4:firstnamekK:emailp:email2Zvp1N q:email3  :home 1 5 :workpHR  S4VZl :phone2sU 5 IF:addressRkC:mobileO L4B to the list</name>
+          <title>When I add a contact None:lastnamer 0GtXyC4:firstnamekK:emailp:email2Zvp1N q:email3  :home 1 5 :workpHR  S4VZl :phone2sU 5 IF:addressRkC:mobileO L4B to the list</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1574360067746" status="passed" stop="1574360067770">
+          <name>Compare new_contacts and old_contacts after add contact</name>
+          <title>Compare new_contacts and old_contacts after add contact</title>
+          <attachments/>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+  </test-cases>
+</ns0:test-suite>

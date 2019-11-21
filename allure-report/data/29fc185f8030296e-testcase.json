@@ -1,0 +1,68 @@
+{
+  "uid" : "29fc185f8030296e",
+  "name" : "test_group_list",
+  "title" : "Test group list",
+  "time" : {
+    "start" : 1574360082264,
+    "stop" : 1574360089354,
+    "duration" : 7090
+  },
+  "summary" : {
+    "attachments" : 1,
+    "steps" : 1
+  },
+  "failure" : {
+    "message" : "AssertionError: assert False",
+    "stackTrace" : "app = <fixture.application.Application object at 0x0481BFB0>, db = <fixture.db.DbFixture object at 0x04809970>\n\n    def test_group_list(app, db):\n        with pytest.allure.step('Failure test'):\n            print(timeit(lambda: app.group.get_group_list(), number=1))\n    \n            def clean(group):\n                return Group(id=group.id, name=group.name.strip())\n    \n            print(timeit(lambda: map(clean, db.get_group_list()), number=1000))\n>           assert False\nE           assert False\n\ntest\\test_db_matches_ui.py:14: AssertionError"
+  },
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "FAILED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "f5e72fc659b3b23",
+    "name" : "test.test_db_matches_ui",
+    "title" : "Test db matches ui"
+  },
+  "steps" : [ {
+    "name" : "Failure test",
+    "title" : "Failure test",
+    "time" : {
+      "start" : 1574360083658,
+      "stop" : 1574360089314,
+      "duration" : 5656
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "FAILED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ {
+    "title" : "Captured stdout call",
+    "source" : "3b28319e-2c91-4eaa-98ba-fb8d4760fea4-attachment.txt",
+    "type" : "text/plain",
+    "size" : 37,
+    "uid" : "f15ed8df250bc978"
+  } ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "mikhail"
+  }, {
+    "name" : "suite-name",
+    "value" : "test.test_db_matches_ui"
+  }, {
+    "name" : "thread",
+    "value" : "15248-MainThread"
+  }, {
+    "name" : "suite-title",
+    "value" : null
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  } ],
+  "parameters" : [ ]
+}

@@ -1,0 +1,47 @@
+<ns0:test-suite xmlns:ns0="urn:model.allure.qatools.yandex.ru" start="1574360067772" stop="1574360074529">
+  <name>test.test_add_contact_in_group</name>
+  <labels/>
+  <test-cases>
+    <test-case start="1574360067772" status="passed" stop="1574360074529">
+      <name>test_add_contact_in_group</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="15248-MainThread"/>
+        <label name="host" value="mikhail"/>
+      </labels>
+      <steps>
+        <step start="1574360069160" status="passed" stop="1574360069166">
+          <name>Get group</name>
+          <title>Get group</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1574360069166" status="passed" stop="1574360069203">
+          <name>Get contact not in this group</name>
+          <title>Get contact not in this group</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1574360069203" status="passed" stop="1574360069206">
+          <name>Save old contact list</name>
+          <title>Save old contact list</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1574360069206" status="passed" stop="1574360074519">
+          <name>Add contact in group</name>
+          <title>Add contact in group</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1574360074520" status="passed" stop="1574360074529">
+          <name>Compare new_contacts and old_contacts after add contact</name>
+          <title>Compare new_contacts and old_contacts after add contact</title>
+          <attachments/>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+  </test-cases>
+</ns0:test-suite>
